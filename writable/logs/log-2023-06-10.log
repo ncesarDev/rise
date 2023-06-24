@@ -1,0 +1,156 @@
+CRITICAL - 2023-06-10 10:25:09 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 11:25:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 11:27:16 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('expenses/yearly_chart_data', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 11:29:35 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('expenses/summary_list_data', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 11:29:41 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('expenses/list_data/1', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 11:29:44 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('expenses/list_data/0', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:28:08 --> Call to a member function warehouse_run_query() on null
+in FCPATH/plugins/Purchase/Helpers/purchase_datatables_helper.php on line 281.
+ 1 FCPATH/plugins/Purchase/Views/purchase_orders/table_pur_order.php(72): data_tables_init1([...], 'id', 'rise_pur_orders', 'LEFT JOIN rise_pur_vendor ON rise_pur_vendor.userid = rise_pur_orders.vendor LEFT JOIN rise_team ON rise_team.id = rise_pur_orders.department LEFT JOIN rise_projects ON rise_projects.id = rise_pur_orders.project', '/home2/serlisa/public_html/sistema', [...], '/home2/serlisa/public_html/sistema', [], [...])
+ 2 FCPATH/plugins/Purchase/Models/Purchase_model.php(648): include_once('FCPATH/plugins/Purchase/Views/purchase_orders/table_pur_order.php')
+ 3 FCPATH/plugins/Purchase/Controllers/Purchase.php(3182): Purchase\Models\Purchase_model->get_table_data('FCPATH/plugins/Purchase/Views/purchase_orders/table_pur_order', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): Purchase\Controllers\Purchase->table_pur_order()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Purchase\Controllers\Purchase))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:28:17 --> Call to undefined function prefixed_table_fields_wildcard()
+in FCPATH/plugins/Purchase/Helpers/purchase_datatables_helper.php on line 108.
+ 1 FCPATH/plugins/Purchase/Views/items/table_commodity_list.php(67): data_tables_init1([...], 'id', 'rise_items', [...], [...], [...], '/home2/serlisa/public_html/sistema', [], [...])
+ 2 FCPATH/plugins/Purchase/Models/Purchase_model.php(648): include_once('FCPATH/plugins/Purchase/Views/items/table_commodity_list.php')
+ 3 FCPATH/plugins/Purchase/Controllers/Purchase.php(790): Purchase\Models\Purchase_model->get_table_data('FCPATH/plugins/Purchase/Views/items/table_commodity_list', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): Purchase\Controllers\Purchase->table_commodity_list()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Purchase\Controllers\Purchase))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:28:58 --> Call to undefined function prefixed_table_fields_wildcard()
+in FCPATH/plugins/Purchase/Helpers/purchase_datatables_helper.php on line 108.
+ 1 FCPATH/plugins/Purchase/Views/invoices/table_pur_invoices.php(47): data_tables_init1([...], 'id', 'rise_pur_invoices', [], [], [...], '/home2/serlisa/public_html/sistema', [], [...])
+ 2 FCPATH/plugins/Purchase/Models/Purchase_model.php(648): include_once('FCPATH/plugins/Purchase/Views/invoices/table_pur_invoices.php')
+ 3 FCPATH/plugins/Purchase/Controllers/Purchase.php(3917): Purchase\Models\Purchase_model->get_table_data('FCPATH/plugins/Purchase/Views/invoices/table_pur_invoices', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): Purchase\Controllers\Purchase->table_pur_invoices()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Purchase\Controllers\Purchase))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:29:01 --> Call to undefined function prefixed_table_fields_wildcard()
+in FCPATH/plugins/Purchase/Helpers/purchase_datatables_helper.php on line 108.
+ 1 FCPATH/plugins/Purchase/Views/invoices/table_pur_invoices.php(47): data_tables_init1([...], 'id', 'rise_pur_invoices', [], [], [...], '/home2/serlisa/public_html/sistema', [], [...])
+ 2 FCPATH/plugins/Purchase/Models/Purchase_model.php(648): include_once('FCPATH/plugins/Purchase/Views/invoices/table_pur_invoices.php')
+ 3 FCPATH/plugins/Purchase/Controllers/Purchase.php(3917): Purchase\Models\Purchase_model->get_table_data('FCPATH/plugins/Purchase/Views/invoices/table_pur_invoices', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): Purchase\Controllers\Purchase->table_pur_invoices()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Purchase\Controllers\Purchase))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:58:22 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:58:22 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 18:58:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 20:58:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 20:58:28 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 22:58:25 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 22:58:27 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 22:58:30 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-10 23:00:00 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('custom_fields/list_data/client_contacts', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

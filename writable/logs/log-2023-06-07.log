@@ -1,0 +1,26 @@
+CRITICAL - 2023-06-07 09:57:25 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 16:31:43 --> Call to undefined function prefixed_table_fields_wildcard()
+in FCPATH/plugins/Purchase/Helpers/purchase_datatables_helper.php on line 108.
+ 1 FCPATH/plugins/Purchase/Views/purchase_request/table_pur_request.php(40): data_tables_init1([...], 'id', 'rise_pur_request', [...], [], [...], '/home2/serlisa/public_html/sistema', [], [...])
+ 2 FCPATH/plugins/Purchase/Models/Purchase_model.php(648): include_once('FCPATH/plugins/Purchase/Views/purchase_request/table_pur_request.php')
+ 3 FCPATH/plugins/Purchase/Controllers/Purchase.php(1826): Purchase\Models\Purchase_model->get_table_data('FCPATH/plugins/Purchase/Views/purchase_request/table_pur_request', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): Purchase\Controllers\Purchase->table_pur_request()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Purchase\Controllers\Purchase))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 16:31:47 --> Call to undefined function prefixed_table_fields_wildcard()
+in FCPATH/plugins/Purchase/Helpers/purchase_datatables_helper.php on line 108.
+ 1 FCPATH/plugins/Purchase/Views/quotations/table_estimates.php(56): data_tables_init1([...], 'id', 'rise_pur_estimates', [...], [], [...], '/home2/serlisa/public_html/sistema', [], [...])
+ 2 FCPATH/plugins/Purchase/Models/Purchase_model.php(648): include_once('FCPATH/plugins/Purchase/Views/quotations/table_estimates.php')
+ 3 FCPATH/plugins/Purchase/Controllers/Purchase.php(2554): Purchase\Models\Purchase_model->get_table_data('FCPATH/plugins/Purchase/Views/quotations/table_estimates', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): Purchase\Controllers\Purchase->table_estimates()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Purchase\Controllers\Purchase))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

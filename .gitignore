@@ -1,0 +1,6 @@
+app/ThirdParty
+app/Language
+assets
+files
+*.sh
+tailwind

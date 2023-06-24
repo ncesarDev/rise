@@ -1,0 +1,1176 @@
+CRITICAL - 2023-06-13 00:00:03 --> Undefined variable $view_data
+in APPPATH\Views\item_estados\index.php on line 3.
+ 1 APPPATH\Views\item_estados\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\item_estados\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(19): App\Libraries\Template->rander('item_estados/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:00:53 --> Undefined variable $view_data
+in APPPATH\Views\item_estados\index.php on line 8.
+ 1 APPPATH\Views\item_estados\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\item_estados\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(19): App\Libraries\Template->rander('item_estados/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:01:50 --> Undefined variable $view_data
+in APPPATH\Views\item_estados\index.php on line 8.
+ 1 APPPATH\Views\item_estados\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\item_estados\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(14): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:02:12 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:07:56 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:09:17 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:11:19 --> Undefined variable $categories_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:12:54 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:13:23 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:16:01 --> Undefined variable $catg_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catg_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:17:15 --> Undefined variable $categories_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:22:59 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:27:47 --> Undefined variable $categories_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:31:35 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:33:07 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:36:37 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:37:44 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:39:12 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:40:13 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:40:47 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:44:25 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:44:30 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:46:08 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:46:13 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:49:14 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 41.
+ 1 APPPATH\Views\items\modal_form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:51:08 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 00:53:53 --> Undefined variable $view_data
+in APPPATH\Views\items\modal_form.php on line 37.
+ 1 APPPATH\Views\items\modal_form.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\items\\modal_form.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:04:09 --> Undefined variable $model_info
+in APPPATH\Views\items\modal_form.php on line 5.
+ 1 APPPATH\Views\items\modal_form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model_info', 'APPPATH\\Views\\items\\modal_form.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:11:38 --> Undefined variable $view_data
+in APPPATH\Views\items\modal_form.php on line 37.
+ 1 APPPATH\Views\items\modal_form.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\items\\modal_form.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:12:07 --> Undefined variable $view_data
+in APPPATH\Views\items\modal_form.php on line 37.
+ 1 APPPATH\Views\items\modal_form.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\items\\modal_form.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:18:45 --> Undefined variable $view_data
+in APPPATH\Views\items\modal_form.php on line 37.
+ 1 APPPATH\Views\items\modal_form.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_data', 'APPPATH\\Views\\items\\modal_form.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:20:49 --> Undefined variable $categorie_dropdown
+in APPPATH\Views\items\modal_form.php on line 43.
+ 1 APPPATH\Views\items\modal_form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorie_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:29:58 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:33:55 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:35:32 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 66.
+ 1 APPPATH\Controllers\Items.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 01:38:20 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 43.
+ 1 APPPATH\Views\items\modal_form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(68): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:12:05 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 15.
+ 1 APPPATH\Views\item_estados\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:12:15 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 15.
+ 1 APPPATH\Views\item_estados\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:18:04 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 15.
+ 1 APPPATH\Views\item_estados\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:18:09 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 15.
+ 1 APPPATH\Views\item_estados\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:19:44 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 15.
+ 1 APPPATH\Views\item_estados\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:22:00 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 16.
+ 1 APPPATH\Views\item_estados\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:23:02 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 16.
+ 1 APPPATH\Views\item_estados\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:23:16 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 16.
+ 1 APPPATH\Views\item_estados\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:23:36 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 16.
+ 1 APPPATH\Views\item_estados\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:25:03 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 16.
+ 1 APPPATH\Views\item_estados\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(15): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:26:40 --> Undefined variable $categories_dropdown
+in APPPATH\Views\item_estados\index.php on line 16.
+ 1 APPPATH\Views\item_estados\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories_dropdown', 'APPPATH\\Views\\item_estados\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item_estados\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('item_estados/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('item_estados/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Item_estados.php(16): App\Libraries\Template->rander('item_estados/index')
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:31:05 --> Undefined property: App\Controllers\Item_estados::$Items_estados_model
+in APPPATH\Controllers\Item_estados.php on line 36.
+ 1 APPPATH\Controllers\Item_estados.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Items_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:31:44 --> Undefined property: App\Controllers\Item_estados::$Items_estados_model
+in APPPATH\Controllers\Item_estados.php on line 36.
+ 1 APPPATH\Controllers\Item_estados.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Items_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:32:30 --> Undefined property: App\Controllers\Item_estados::$Items_estados_model
+in APPPATH\Controllers\Item_estados.php on line 36.
+ 1 APPPATH\Controllers\Item_estados.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Items_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:33:10 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 36.
+ 1 APPPATH\Controllers\Item_estados.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:34:39 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 36.
+ 1 APPPATH\Controllers\Item_estados.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:35:32 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 36.
+ 1 APPPATH\Controllers\Item_estados.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:38:25 --> Call to undefined method App\Controllers\Item_estados::validate_access_to_items()
+in APPPATH\Controllers\Item_estados.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:39:38 --> Call to undefined method App\Controllers\Item_estados::validate_access_to_items()
+in APPPATH\Controllers\Item_estados.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:40:48 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:42:15 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:43:23 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:43:53 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:45:54 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:46:25 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:47:11 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:47:26 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:48:11 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:48:22 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:48:26 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:48:33 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:50:57 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:57:03 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:57:45 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 13:59:01 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:00:55 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:02:35 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:03:24 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:03:43 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:04:47 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:05:00 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:05:34 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:05:59 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:06:58 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:07:57 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:10:19 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 38.
+ 1 APPPATH\Controllers\Item_estados.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:16:27 --> Call to undefined method App\Controllers\Item_estados::validate_access_to_items()
+in APPPATH\Controllers\Item_estados.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:16:50 --> Call to undefined method App\Controllers\Item_estados::validate_access_to_items()
+in APPPATH\Controllers\Item_estados.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:31:29 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:33:13 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:44:30 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 44.
+ 1 APPPATH\Controllers\Items.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 44)
+ 2 APPPATH\Controllers\Items.php(36): App\Controllers\Items->_get_contarTodo()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:44:34 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 44.
+ 1 APPPATH\Controllers\Items.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 44)
+ 2 APPPATH\Controllers\Items.php(36): App\Controllers\Items->_get_contarTodo()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:44:54 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 44.
+ 1 APPPATH\Controllers\Items.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 44)
+ 2 APPPATH\Controllers\Items.php(36): App\Controllers\Items->_get_contarTodo()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:48:17 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\Items.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Items.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Items')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Items')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Items', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 14:51:28 --> Undefined property: stdClass::$titulo
+in APPPATH\Views\items\index.php on line 65.
+ 1 APPPATH\Views\items\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$titulo', 'APPPATH\\Views\\items\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Items.php(38): App\Libraries\Template->rander('items/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:10:41 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:16:40 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 43.
+ 1 APPPATH\Views\items\modal_form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(85): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:18:16 --> Undefined variable $estados_dropdown
+in APPPATH\Views\items\modal_form.php on line 43.
+ 1 APPPATH\Views\items\modal_form.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estados_dropdown', 'APPPATH\\Views\\items\\modal_form.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\modal_form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/modal_form', [], true)
+ 5 APPPATH\Libraries\Template.php(38): view('items/modal_form', [...])
+ 6 APPPATH\Controllers\Items.php(85): App\Libraries\Template->view('items/modal_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->modal_form()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:27:09 --> Array to string conversion
+in APPPATH\Views\items\index.php on line 57.
+ 1 APPPATH\Views\items\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\items\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Items.php(39): App\Libraries\Template->rander('items/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:27:31 --> Array to string conversion
+in APPPATH\Views\items\index.php on line 57.
+ 1 APPPATH\Views\items\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\items\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Items.php(39): App\Libraries\Template->rander('items/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 15:27:51 --> Array to string conversion
+in APPPATH\Views\items\index.php on line 57.
+ 1 APPPATH\Views\items\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\items\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout\index.php(48): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/index', [], true)
+ 9 APPPATH\Libraries\Template.php(38): view('layout/index', [...])
+10 APPPATH\Libraries\Template.php(22): App\Libraries\Template->view('layout/index', [...])
+11 APPPATH\Controllers\Items.php(39): App\Libraries\Template->rander('items/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+13 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+14 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:32:10 --> Undefined property: App\Controllers\Items::$Item_estados_model
+in APPPATH\Controllers\Items.php on line 52.
+ 1 APPPATH\Controllers\Items.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Items::$Item_estados_model', 'APPPATH\\Controllers\\Items.php', 52)
+ 2 APPPATH\Controllers\Items.php(37): App\Controllers\Items->_get_TotalEnMantenimiento()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:33:27 --> syntax error, unexpected integer "0", expecting "function" or "const"
+in APPPATH\Controllers\Item_estados.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Item_estados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Item_estados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Item_estados')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Item_estados', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 16:33:52 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:02:56 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:06:09 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:06:36 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:08:00 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:08:30 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:08:49 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:09:18 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 41.
+ 1 APPPATH\Controllers\Item_estados.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:10:43 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:15:32 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 55.
+ 1 APPPATH\Controllers\Item_estados.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:15:46 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 55.
+ 1 APPPATH\Controllers\Item_estados.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:16:49 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 55.
+ 1 APPPATH\Controllers\Item_estados.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:17:51 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 55.
+ 1 APPPATH\Controllers\Item_estados.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:18:34 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 55.
+ 1 APPPATH\Controllers\Item_estados.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:19:47 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 55.
+ 1 APPPATH\Controllers\Item_estados.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:24:09 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 52.
+ 1 APPPATH\Controllers\Item_estados.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:25:42 --> Undefined property: App\Controllers\Item_estados::$item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 51.
+ 1 APPPATH\Controllers\Item_estados.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:26:19 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 51.
+ 1 APPPATH\Controllers\Item_estados.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:31:05 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 51.
+ 1 APPPATH\Controllers\Item_estados.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:33:59 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 53.
+ 1 APPPATH\Controllers\Item_estados.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 17:34:43 --> Undefined property: App\Controllers\Item_estados::$Item_estados_model
+in APPPATH\Controllers\Item_estados.php on line 53.
+ 1 APPPATH\Controllers\Item_estados.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estados_model', 'APPPATH\\Controllers\\Item_estados.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->list_data()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 18:15:31 --> Undefined property: App\Controllers\Item_estados::$Item_estadosmodel
+in APPPATH\Controllers\Item_estados.php on line 24.
+ 1 APPPATH\Controllers\Item_estados.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Item_estados::$Item_estadosmodel', 'APPPATH\\Controllers\\Item_estados.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->modal_form()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 19:57:34 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 19:57:38 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-13 21:54:57 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2023-06-13 21:57:38 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 22:02:47 --> Attempt to read property "item_estado" on null
+in APPPATH\Controllers\Item_estados.php on line 96.
+ 1 APPPATH\Controllers\Item_estados.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "item_estado" on null', 'APPPATH\\Controllers\\Item_estados.php', 96)
+ 2 APPPATH\Controllers\Item_estados.php(91): App\Controllers\Item_estados->_make_row(null)
+ 3 APPPATH\Controllers\Item_estados.php(45): App\Controllers\Item_estados->_row_data(3)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Item_estados->save()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item_estados))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 22:35:49 --> Undefined property: stdClass::$estado_item_estado
+in APPPATH\Controllers\Items.php on line 202.
+ 1 APPPATH\Controllers\Items.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$estado_item_estado', 'APPPATH\\Controllers\\Items.php', 202)
+ 2 APPPATH\Controllers\Items.php(176): App\Controllers\Items->_make_item_row(Object(stdClass))
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Items->list_data()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
