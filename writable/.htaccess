@@ -1,3 +1,4 @@
+#comment
 <IfModule authz_core_module>
     Require all denied
 </IfModule>

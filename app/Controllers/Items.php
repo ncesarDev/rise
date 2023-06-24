@@ -84,6 +84,7 @@ class Items extends Security_Controller {
 
         $view_data['model_info'] = $this->Items_model->get_one($this->request->getPost('id'));
         $view_data['categories_dropdown'] = $this->Item_categories_model->get_dropdown_list(array("title"));
+        // mod nicedev90
         $view_data['estados_dropdown'] = $this->Item_estados_model->get_dropdown_list(array("item_estado"));
 
         return $this->template->view('items/modal_form', $view_data);
