@@ -19,7 +19,8 @@ class Item_categories extends Security_Controller {
         $this->validate_submitted_data(array(
             "id" => "numeric"
         ));
-
+        // comment nicedev90
+        // get_one, pass id of category
         $view_data['model_info'] = $this->Item_categories_model->get_one($this->request->getPost('id'));
         return $this->template->view('item_categories/modal_form', $view_data);
     }
