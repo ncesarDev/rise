@@ -34,6 +34,7 @@ class Items extends Security_Controller {
         $this->validate_access_to_items();
 
         $view_data['categories_dropdown'] = $this->_get_categories_dropdown();
+
         // mod nicedev90
         $view_data['totalEquipos'] = $this->_get_TotalEquipos();
         $view_data['totalMant'] = $this->_get_TotalEnMantenimiento();
@@ -45,7 +46,7 @@ class Items extends Security_Controller {
     private function _get_TotalEquipos() {
         // comment nicedev90
         // get al where (array (key=>value), limit, offset, 'sorted by')
-        $totalEquipos = $this->Items_model->get_all_where(array("deleted" => 0, "estado" => "DISPONIBLE"), 0, 0, "id")->getResult();
+        $totalEquipos = $this->Items_model->get_all_where(array("deleted" => 0, "estado_id" => 1), 0, 0, "id")->getResult();
         return $totalEquipos;
     }
 
@@ -53,7 +54,7 @@ class Items extends Security_Controller {
     private function _get_TotalEnMantenimiento() {
         // comment nicedev90
         // get al where (array (key=>value), limit, offset, 'sorted by')
-        $totalMant = $this->Items_model->get_all_where(array("deleted" => 0, "estado" => "EN MANTENIMIENTO"), 0, 0, "id")->getResult();
+        $totalMant = $this->Items_model->get_all_where(array("deleted" => 0, "estado_id" => 2), 0, 0, "id")->getResult();
         return $totalMant;
     }
 
@@ -66,7 +67,7 @@ class Items extends Security_Controller {
         foreach ($categories as $category) {
             $categories_dropdown[] = array("id" => $category->id, "text" => $category->title);
         }
-
+        // comment nicedev90 send data to filterDropdown datatable
         return json_encode($categories_dropdown);
     }
 
@@ -83,6 +84,7 @@ class Items extends Security_Controller {
         ));
 
         $view_data['model_info'] = $this->Items_model->get_one($this->request->getPost('id'));
+
         $view_data['categories_dropdown'] = $this->Item_categories_model->get_dropdown_list(array("title"));
         // mod nicedev90
         $view_data['estados_dropdown'] = $this->Item_estados_model->get_dropdown_list(array("item_estado"));
@@ -110,7 +112,8 @@ class Items extends Security_Controller {
             "category_id" => $this->request->getPost('category_id'),
             "unit_type" => $this->request->getPost('unit_type'),
             "rate" => unformat_currency($this->request->getPost('item_rate')),
-            "estado" => $this->request->getPost('estado'),
+            // mod nicedev90, get $_POST['name']; must be equal to field name in DB
+            "estado_id" => $this->request->getPost('estado_id'),
             "show_in_client_portal" => $this->request->getPost('show_in_client_portal') ? $this->request->getPost('show_in_client_portal') : ""
         );
 
@@ -173,9 +176,12 @@ class Items extends Security_Controller {
         $this->validate_access_to_items();
 
         $category_id = $this->request->getPost('category_id');
+        // mod nicedev90, enviar informacion de tabla items, campo "estado_id" , add estado_id to request list
+        $estado_id = $this->request->getPost('estado_id');
+
         // comment nicedev90
         // agregar al array las opciones para unir a tabla item_estados
-        $options = array("category_id" => $category_id);
+        $options = array("category_id" => $category_id, "estado_id" => $estado_id);
 
         $list_data = $this->Items_model->get_details($options)->getResult();
         $result = array();
@@ -206,7 +212,10 @@ class Items extends Security_Controller {
             $data->category_title ? $data->category_title : "-",
             $type,
             to_decimal_format($data->rate),
-            $data->estado ? $data->estado : "-",
+            // comment nicedev90 , agregar item_estado al array
+            // mod nicedev90, mostrar informacion item_estado1 del resultado de consulta SQL  en tabla
+            // $data->estado ? $data->estado : "-",
+            $data->item_estado1 ? $data->item_estado1 : "-",
             modal_anchor(get_uri("items/modal_form"), "<i data-feather='edit' class='icon-16'></i>", array("class" => "edit", "title" => app_lang('edit_item'), "data-post-id" => $data->id))
             . js_anchor("<i data-feather='x' class='icon-16'></i>", array('title' => app_lang('delete'), "class" => "delete", "data-id" => $data->id, "data-action-url" => get_uri("items/delete"), "data-action" => "delete"))
         );

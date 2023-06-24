@@ -7,7 +7,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list icon"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
             </div>
             <div class="widget-details">
-                <!-- mod nicedev90 -->
+                 <!-- mod nicedev90 -->
                 <h1> <?php echo isset($totalEquipos) ? count($totalEquipos)  : 0 ; ?> </h1>
                 <span class="bg-transparent-white"><strong>Equipos Disponibles</strong></span>
             </div>
@@ -20,7 +20,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list icon"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
             </div>
             <div class="widget-details">
-                <!-- mod nicedev90 -->
+                 <!-- mod nicedev90 -->
                 <h1><?php echo isset($totalMant) ? count($totalMant) : 0 ; ?></h1>
                 <span class="bg-transparent-white"><strong>Equipos No Disponibles</strong></span>
             </div>
@@ -46,13 +46,14 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass icon"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
             </div>
             <div class="widget-details">
-                <!-- mod nicedev90 -->
+                 <!-- mod nicedev90 -->
                 <h1><?php echo isset($totalMant) ? count($totalMant) : 0 ; ?> </h1>
                 <span class="bg-transparent-white"><strong>Equipos en Mantenimiento</strong></span>
             </div>
         </div>
     </div>
 </a></div></div>
+
 
 
     <div class="card">
@@ -70,6 +71,10 @@
     </div>
 </div>
 
+
+<?php echo_uri("items/list_data") ?>
+
+
 <script type="text/javascript">
     $(document).ready(function () {
         $("#item-table").appTable({
@@ -79,7 +84,6 @@
                 {name: "category_id", class: "w200", options: <?php echo $categories_dropdown; ?>}
             ],
             columns: [
-                // mod nicedev90
                 {title: "<?php echo 'Código' ?> ", "class": "w8p all"},
                 {title: "<?php echo app_lang('title') ?> ", "class": "w20p all"},
                 {title: "<?php echo app_lang('description') ?> ", "class": "w20p all"},

@@ -34,16 +34,15 @@
             <div class="form-group">
                 <div class="row">            
 
-                    <label for="estado" class=" col-md-3"><?php echo 'Estado'; ?></label>
+                    <label for="estado" class=" col-md-3"><?php echo 'Estado'  .  $model_info->estado_id; ?></label>
                     <div class="col-md-9">         
                         <?php
-                        echo form_dropdown("estado", $estados_dropdown, $model_info->estado, "class='select2 validate-hidden' id='estado' data-rule-required='true', data-msg-required='" . app_lang('field_required') . "'");
+                        // mod nicedev90 , $model_info->campo  trae informacion de la consulta SQL
+                        echo form_dropdown("estado_id", $estados_dropdown, $model_info->estado_id, "class='select2 validate-hidden' id='estado' data-rule-required='true', data-msg-required='" . app_lang('field_required') . "'");
                         ?>
                     </div>
                 </div>
             </div>
-
-
 
 
             <div class="form-group">

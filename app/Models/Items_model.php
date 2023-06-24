@@ -15,6 +15,8 @@ class Items_model extends Crud_model {
         $items_table = $this->db->prefixTable('items');
         $order_items_table = $this->db->prefixTable('order_items');
         $item_categories_table = $this->db->prefixTable('item_categories');
+        // mod nicedev90
+        $item_estados_table = $this->db->prefixTable('item_estados');
 
         $where = "";
         $id = $this->_get_clean_value($options, "id");
@@ -33,11 +35,16 @@ class Items_model extends Crud_model {
             $where .= " AND $items_table.show_in_client_portal=1";
         }
 
-        // comment nicedev90
         // agregar condicion para item_estados -> siendo estado_id el campo en tabla items
         $category_id = $this->_get_clean_value($options, "category_id");
         if ($category_id) {
             $where .= " AND $items_table.category_id=$category_id";
+        }
+
+        // mod nicedev90, esta info viene de Items::lista_data()
+        $estado_id = $this->_get_clean_value($options, "estado_id");
+        if ($estado_id) {
+            $where .= " AND $items_table.estado_id=$estado_id";
         }
 
         $extra_select = "";
@@ -53,11 +60,12 @@ class Items_model extends Crud_model {
             $limit_query = "LIMIT $offset, $limit";
         }
 
-        // comment nicedev90
         // agregar un left join a la consulta para unir con la tabla item_estados
-        $sql = "SELECT $items_table.*, $item_categories_table.title as category_title $extra_select
+        // mod nicedev90 , agregado LEFT JOIN $item_estados_table
+        $sql = "SELECT $items_table.*, $item_estados_table.item_estado as item_estado1, $item_estados_table.id as id_estado_tabla, $item_categories_table.title as category_title $extra_select
         FROM $items_table
         LEFT JOIN $item_categories_table ON $item_categories_table.id= $items_table.category_id
+        LEFT JOIN $item_estados_table ON $item_estados_table.id= $items_table.estado_id
         WHERE $items_table.deleted=0 $where
         ORDER BY $items_table.title ASC
         $limit_query";
