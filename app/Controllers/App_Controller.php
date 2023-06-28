@@ -119,7 +119,8 @@ class App_Controller extends Controller {
             'Checklist_template_model',
             'Checklist_groups_model',
             // new model add by niceDev90
-            'Item_estados_model'
+            'Item_estados_model',
+            'Items_historial_model'
         );
     }
 

@@ -72,7 +72,7 @@
 </div>
 
 
-<?php echo_uri("items/list_data") ?>
+
 
 
 <script type="text/javascript">
