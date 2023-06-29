@@ -1,5 +1,8 @@
+
+
 <div id="page-content" class="clearfix">
     <div style="max-width: 1000px; margin: auto;">
+        <!-- bloque 1 -->
         <div class="page-title clearfix mt25">
             <h1><?php echo get_invoice_id($invoice_info->id); ?>
                 <?php
@@ -13,6 +16,7 @@
                 <?php } ?>
             </h1>
             <div class="title-button-group">
+                <!-- comment nicedev90 , dropdown Acciones para factura -->
                 <span class="dropdown inline-block mt10">
                     <button class="btn btn-info text-white dropdown-toggle caret mt0 mb0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
                         <i data-feather="tool" class="icon-16"></i> <?php echo app_lang('actions'); ?>
@@ -41,14 +45,16 @@
                             <li role="presentation"><?php echo modal_anchor(get_uri("invoices/modal_form"), "<i data-feather='copy' class='icon-16'></i> " . app_lang('clone_invoice'), array("data-post-is_clone" => true, "data-post-id" => $invoice_info->id, "title" => app_lang('clone_invoice'), "class" => "dropdown-item")); ?></li>
                         <?php } ?>
 
-                    </ul>
+                    </ul>   
                 </span>
+                <!-- comment nicedev90, boton de añadir campo -->
                 <?php if ($invoice_status !== "cancelled" && $can_edit_invoices) { ?>
                     <?php echo modal_anchor(get_uri("invoice_payments/payment_modal_form"), "<i data-feather='plus-circle' class='icon-16'></i> " . app_lang('add_payment'), array("class" => "btn btn-default", "title" => app_lang('add_payment'), "data-post-invoice_id" => $invoice_info->id)); ?>
                 <?php } ?>
             </div>
         </div>
-
+        
+        <!-- comment nicedev90, barra de estado factura, en bloque 1 -->
         <div id="invoice-status-bar">
             <?php echo view("invoices/invoice_status_bar"); ?>
         </div>
@@ -59,8 +65,10 @@
         }
         ?>
 
+        <!-- bloque 2 -->
         <div class="mt15">
             <div class="card p15 b-t">
+                <!-- comment nicede90, encabezado de factura  -->
                 <div class="clearfix p20">
                     <!-- small font size is required to generate the pdf, overwrite that for screen -->
                     <style type="text/css"> .invoice-meta {
@@ -87,15 +95,20 @@
                     ?>
                 </div>
 
+                <!-- comment nicede90, tabla de items de factura -->
                 <div class="table-responsive mt15 pl15 pr15">
                     <table id="invoice-item-table" class="display" width="100%">            
                     </table>
                 </div>
 
+                <!-- comment nicede90, fila Añadir Equipo -->
                 <div class="clearfix">
+                    <!-- comment nicedev90, boton de añadir Equipo --> 
                     <div class="float-start mt20 ml15">
                         <?php echo modal_anchor(get_uri("invoices/item_modal_form"), "<i data-feather='plus-circle' class='icon-16'></i> " . app_lang('add_item'), array("class" => "btn btn-info text-white", "title" => app_lang('add_item'), "data-post-invoice_id" => $invoice_info->id)); ?>
                     </div>
+
+                    <!-- comment nicedev90, Seccion subtotal --> 
                     <div class="float-end pr15" id="invoice-total-section">
                         <?php echo view("invoices/invoice_total_section", array("invoice_id" => $invoice_info->id, "can_edit_invoices" => $can_edit_invoices)); ?>
                     </div>
@@ -127,7 +140,7 @@
         </div>
 
 
-
+        <!-- bloque 3 -->
         <?php if ($invoice_info->recurring) { ?>
             <ul id="invoice-view-tabs" data-bs-toggle="ajax-tab" class="nav nav-tabs" role="tablist">
                 <li><a  role="presentation" href="#" data-bs-target="#invoice-payments"> <?php echo app_lang('payments'); ?></a></li>
@@ -173,6 +186,7 @@
         }
 
         $("#invoice-item-table").appTable({
+            // comment nicedev90, traer items de factura de base
             source: '<?php echo_uri("invoices/item_list_data/" . $invoice_info->id . "/") ?>',
             order: [[0, "asc"]],
             hideTools: true,

@@ -1,3 +1,8 @@
+## _Miercoles : 28-Jun-2023_
+
+- Avance Tabla/vista Historial de equipos
+- agregado dropdown equipos para agregar item en Factura
+
 ## _Martes : 27-Jun-2023_
 
 - Avance Tabla/vista Historial de equipos

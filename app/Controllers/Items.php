@@ -36,22 +36,22 @@ class Items extends Security_Controller {
         $view_data['categories_dropdown'] = $this->_get_categories_dropdown();
 
         // mod nicedev90
-        $view_data['totalEquipos'] = $this->_get_TotalEquipos();
-        $view_data['totalMant'] = $this->_get_TotalEnMantenimiento();
+        $view_data['totalDisponible'] = $this->_get_totalDisponible();
+        $view_data['totalMantenimiento'] = $this->_get_totalMantenimiento();
 
         return $this->template->rander("items/index", $view_data);
     }
 
     //get categories dropdown
-    private function _get_TotalEquipos() {
+    private function _get_totalDisponible() {
         // comment nicedev90
         // get al where (array (key=>value), limit, offset, 'sorted by')
-        $totalEquipos = $this->Items_model->get_all_where(array("deleted" => 0, "estado_id" => 1), 0, 0, "id")->getResult();
-        return $totalEquipos;
+        $totalDisponible = $this->Items_model->get_all_where(array("deleted" => 0, "estado_id" => 1), 0, 0, "id")->getResult();
+        return $totalDisponible;
     }
 
     //get categories dropdown
-    private function _get_TotalEnMantenimiento() {
+    private function _get_totalMantenimiento() {
         // comment nicedev90
         // get al where (array (key=>value), limit, offset, 'sorted by')
         $totalMant = $this->Items_model->get_all_where(array("deleted" => 0, "estado_id" => 2), 0, 0, "id")->getResult();

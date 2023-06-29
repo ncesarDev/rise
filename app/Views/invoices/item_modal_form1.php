@@ -10,15 +10,44 @@ error_reporting(0);
         <input type="hidden" id="item_id" name="item_id" value="" />
         <input type="hidden" name="invoice_id" value="<?php echo $invoice_id; ?>" />
         <input type="hidden" name="add_new_item_to_library" value="" id="add_new_item_to_library" />
+        
+        <div class="form-group">
+            <div class="row">
+                <label for="invoice_item_title" class=" col-md-3"><?php echo app_lang('item'); ?></label>
+                <div class="col-md-9">
+                    <?php
+                    echo form_input(array(
+                        "id" => "invoice_item_title",
+                        "name" => "invoice_item_title",
+                        "value" => $model_info->title,
+                        "class" => "form-control validate-hidden",
+                        "placeholder" => app_lang('select_or_create_new_item'),
+                        "data-rule-required" => true,
+                        "data-msg-required" => app_lang("field_required"),
+                    ));
+                    ?>
+                    <a id="invoice_item_title_dropdwon_icon" tabindex="-1" href="javascript:void(0);" style="color: #B3B3B3;float: right; padding: 5px 7px; margin-top: -35px; font-size: 18px;"><span>×</span></a>
+                </div>
+            </div>
+        </div>
+        
+                    <div class="form-group">
+                <div class="row">
+                    <label for="category_id" class=" col-md-3"><?php echo app_lang('category'); ?></label>
+                    <div class=" col-md-9">
+                        <?php
+                        echo form_dropdown("category_id", $categories_dropdown, $model_info->category_id, "class='select2 validate-hidden' id='category_id' data-rule-required='true', data-msg-required='" . app_lang('field_required') . "'");
+                        ?>
+                    </div>
+                </div>
+            </div>
 
-
-        <!-- mod nicedev90, mostrar dropdown de equipos -->
                     <div class="form-group">
                 <div class="row">
                     <label for="invoice_item_title" class=" col-md-3"><?php echo 'Equipos'; ?></label>
                     <div class=" col-md-9">
                         <?php
-                        echo form_dropdown("invoice_item_title", $items_dropdown, $model_info->title, "class='select2 validate-hidden' id='category_id' data-rule-required='true', data-msg-required='" . app_lang('field_required') . "'");
+                        echo form_dropdown("invoice_item_title", $items_dropdown, $model_info->id, "class='select2 validate-hidden' id='category_id' data-rule-required='true', data-msg-required='" . app_lang('field_required') . "'");
                         ?>
                     </div>
                 </div>

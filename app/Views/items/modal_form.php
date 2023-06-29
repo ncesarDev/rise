@@ -172,6 +172,7 @@
         $("#item-form").appForm({
             onSuccess: function (result) {
                 if (window.refreshAfterUpdate) {
+                    // mod nicedev90, reload page after add new Item
                     window.refreshAfterUpdate = false;
                     location.reload();
                 } else {

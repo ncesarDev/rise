@@ -106,9 +106,12 @@ class Items_historial extends Security_Controller {
     private function _make_row($data) {
         return array(
             $data->id_invoice_tabla,
-            $data->title,
             $data->company,
+            $data->title,
+            $data->description,
+            $data->rate,
             $data->invoice_due_date,
+            $data->unit_type,
             modal_anchor(get_uri("item_estados/modal_form"), "<i data-feather='edit' class='icon-16'></i>", array("class" => "edit", "title" => "editar el estado", "data-post-id" => $data->id))
             . js_anchor("<i data-feather='x' class='icon-16'></i>", array('title' => app_lang('delete_items_category'), "class" => "delete", "data-id" => $data->id, "data-action-url" => get_uri("item_estados/delete"), "data-action" => "delete"))
         );

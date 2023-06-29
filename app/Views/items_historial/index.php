@@ -29,10 +29,13 @@ error_reporting(0);
       //   {name: "category_id", class: "w200", options: <?php echo $categories_dropdown; ?>}
       // ],
       columns: [
-        {title: "<?php echo 'Factura ID' ?> "},
-        {title: "<?php echo 'Equipo' ?> "},
-        {title: "<?php echo 'Empresa' ?> "},
-        {title: "<?php echo 'Fecha ' ?> "},
+        {title: "<?php echo 'ID' ?> "},
+        {title: "<?php echo 'Nombre del Cliente' ?> "},
+        {title: "<?php echo 'Nombre del equipo' ?> "},
+        {title: "<?php echo 'Categoria' ?> "},
+        {title: "<?php echo 'Costo' ?> "},
+        {title: "<?php echo 'Fecha' ?> "},
+        {title: "<?php echo 'Estado' ?> "},
         {title: "<i data-feather='menu' class='icon-16'></i>", "class": "text-center option w100"}
       ]
     });

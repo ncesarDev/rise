@@ -12,6 +12,7 @@ class Items_historial_model extends Crud_model {
         $items = $this->db->prefixTable('invoice_items');
         $invoices = $this->db->prefixTable('invoices');
         $clients = $this->db->prefixTable('clients');
+        // $categories = $this->db->prefixTable('item_categories');
 
         $where = "";
         // mod nicedev90, esta info viene de Items::lista_data()
@@ -26,11 +27,13 @@ class Items_historial_model extends Crud_model {
         $invoices.id as id_invoice_tabla,
         $invoices.due_date as invoice_due_date,
         $clients.company_name as company
+
         FROM $items
         LEFT JOIN $invoices ON $items.invoice_id = $invoices.id
         LEFT JOIN $clients ON $invoices.client_id = $clients.id
+
         WHERE $items.deleted=0 $where
-        ORDER BY $invoices.id ASC";
+        GROUP BY $invoices.id ASC";
 
         return $this->db->query($sql);
 

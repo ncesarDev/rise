@@ -657,7 +657,6 @@ class Invoices extends Security_Controller {
     }
 
     /* invoice total section */
-
     private function _get_invoice_total_view($invoice_id = 0) {
         $view_data["invoice_total_summary"] = $this->Invoices_model->get_invoice_total_summary($invoice_id);
         $view_data["invoice_id"] = $invoice_id;
@@ -666,7 +665,6 @@ class Invoices extends Security_Controller {
     }
 
     /* load item modal */
-
     function item_modal_form() {
         if (!$this->can_edit_invoices()) {
             app_redirect("forbidden");
@@ -684,6 +682,10 @@ class Invoices extends Security_Controller {
         }
         $view_data['invoice_id'] = $invoice_id;
         $view_data['categories_dropdown'] = $this->Item_categories_model->get_dropdown_list(array("title"));
+        // mod nicedev90, agregar lista de items a modal form 
+        $view_data['items_dropdown'] = $this->Items_model->get_dropdown_list(array("title"));
+
+    
         return $this->template->view('invoices/item_modal_form', $view_data);
     }
 
@@ -815,6 +817,7 @@ class Invoices extends Security_Controller {
             to_decimal_format($data->quantity) . " " . $type,
             to_currency($data->rate, $data->currency_symbol),
             to_currency($data->total, $data->currency_symbol),
+            // comment nicedev90, call to function item_modal_form
             modal_anchor(get_uri("invoices/item_modal_form"), "<i data-feather='edit' class='icon-16'></i>", array("class" => "edit", "title" => app_lang('edit_invoice'), "data-post-id" => $data->id))
             . js_anchor("<i data-feather='x' class='icon-16'></i>", array('title' => app_lang('delete'), "class" => "delete", "data-id" => $data->id, "data-action-url" => get_uri("invoices/delete_item"), "data-action" => "delete"))
         );
