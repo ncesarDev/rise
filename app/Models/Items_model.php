@@ -72,4 +72,53 @@ class Items_model extends Crud_model {
         return $this->db->query($sql);
     }
 
+
+    function get_items_by_category($options = array()) {
+
+        $items_table = $this->db->prefixTable('items');
+
+        $where = "";
+
+        $category_id = $this->_get_clean_value($options, "category_id");
+        if ($category_id) {
+            $where .= " AND $items_table.category_id=$category_id";
+        }
+
+        // mod nicedev90 
+        $sql = "SELECT COUNT(DISTINCT $items_table.id) AS disponible, $items_table.title, $items_table.codigo 
+        FROM $items_table
+        WHERE $items_table.deleted=0 $where
+        AND $items_table.estado_id=1
+        GROUP BY $items_table.title ASC
+        ";
+
+
+        return $this->db->query($sql)->getResult();
+        
+    }
+
+
+    function get_item_details_model($options = array()) {
+
+        $items_table = $this->db->prefixTable('items');
+
+        $where = "";
+
+        $codigo = $this->_get_clean_value($options, "codigo");
+        if ($codigo) {
+            $where .= " AND $items_table.codigo=$codigo";
+        }
+
+        // mod nicedev90 
+        $sql = "SELECT $items_table.description, $items_table.unit_type, $items_table.rate
+        FROM $items_table
+        WHERE $items_table.deleted=0 $where
+        
+        ";
+        // $sql = "SELECT *  FROM $items_table";
+
+        return $this->db->query($sql)->getResult();        
+    }
+
+
 }

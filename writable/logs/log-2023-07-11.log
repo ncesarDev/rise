@@ -1,0 +1,727 @@
+ERROR - 2023-07-11 00:19:16 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 00:19:16 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 01:08:49 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 01:09:22 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 01:09:22 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 01:09:47 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 01:16:22 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 01:16:45 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 01:19:00 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:30:09 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:30:15 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:30:27 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:30:33 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:52:02 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:52:29 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:54:02 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:54:21 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:55:22 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:58:56 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 11:59:43 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:00:25 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:01:50 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:02:36 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:03:07 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:05:50 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:08:40 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:09:19 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:09:55 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:10:24 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:11:05 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:11:11 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:12:13 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:16:47 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:17:02 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:17:36 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:20:28 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:22:48 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:23:18 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:23:49 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:26:04 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:28:38 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:29:17 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:29:38 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:30:10 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:32:42 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:35:07 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:35:31 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:37:33 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:38:35 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:38:43 --> Undefined variable $iems_table
+in APPPATH\Models\Items_model.php on line 115.
+ 1 APPPATH\Models\Items_model.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iems_table', 'APPPATH\\Models\\Items_model.php', 115)
+ 2 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:40:04 --> Undefined variable $iems_table
+in APPPATH\Models\Items_model.php on line 115.
+ 1 APPPATH\Models\Items_model.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iems_table', 'APPPATH\\Models\\Items_model.php', 115)
+ 2 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:40:34 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:40:41 --> Undefined variable $iems_table
+in APPPATH\Models\Items_model.php on line 115.
+ 1 APPPATH\Models\Items_model.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iems_table', 'APPPATH\\Models\\Items_model.php', 115)
+ 2 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:41:11 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:42:14 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 12:42:21 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 12:42:21 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:42:47 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:45:49 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:46:59 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:47:36 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:47:52 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:48:30 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 12:48:37 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 12:48:37 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 12:57:21 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 12:57:21 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:58:30 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 12:58:37 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 12:58:37 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 13:00:24 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 13:03:45 --> Unknown column 'cod_test_1' in 'where clause'
+CRITICAL - 2023-07-11 13:03:45 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 13:06:08 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 13:06:17 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 13:06:27 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 13:06:35 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 13:06:35 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 13:06:47 --> Unknown column 'cod_test_1' in 'where clause'
+CRITICAL - 2023-07-11 13:06:47 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 13:08:34 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 13:08:43 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 13:08:43 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 13:08:48 --> Unknown column 'cod_test_1' in 'where clause'
+CRITICAL - 2023-07-11 13:08:48 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 14:26:13 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 14:26:21 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 14:29:13 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 14:29:39 --> Unknown column 'cod_test_1' in 'where clause'
+CRITICAL - 2023-07-11 14:29:39 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 14:29:58 --> Unknown column 'cos_test_8' in 'where clause'
+CRITICAL - 2023-07-11 14:29:58 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 14:30:33 --> Unknown column 'cod_test_1' in 'where clause'
+CRITICAL - 2023-07-11 14:30:33 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 14:48:12 --> require_once(C:\xampp\htdocs\rise\app\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Libraries\Google_calendar.php on line 15.
+ 1 APPPATH\Libraries\Google_calendar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\rise\\app\\ThirdParty/Google/google-api-php-client/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Libraries\\Google_calendar.php', 15)
+ 2 APPPATH\Libraries\Google_calendar.php(15): require_once()
+ 3 APPPATH\Controllers\Events.php(13): App\Libraries\Google_calendar->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Events->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-11 14:48:22 --> Unknown column 'S1114042' in 'where clause'
+CRITICAL - 2023-07-11 14:48:22 --> Call to a member function getResult() on bool
+in APPPATH\Models\Items_model.php on line 120.
+ 1 APPPATH\Controllers\Invoices.php(894): App\Models\Items_model->get_item_details_model([...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Invoices->get_item_details_mod()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 16:26:06 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 286.
+ 1 SYSTEMPATH\Security\Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('messages/count_notifications', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(83): CodeIgniter\CodeIgniter->run()

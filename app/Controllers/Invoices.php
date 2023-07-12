@@ -876,6 +876,31 @@ class Invoices extends Security_Controller {
         }
     }
 
+    // mod nicedev90
+    function get_items_by_category() {
+        //  traer de base por $_POST['category_id']
+        $items = $this->Items_model->get_items_by_category(array("category_id" => $this->request->getPost("category_id")));
+        if ($items) {
+            // $items->rate = $items->rate ? to_decimal_format($items->rate) : "";
+            echo json_encode(array("success" => true, "item_info" => $items));
+        } else {
+            echo json_encode(array("success" => false));
+        }
+    }
+
+
+    function get_item_details_mod() {
+        //  traer de base por $_POST['item_title']
+        $details = $this->Items_model->get_item_details_model(array("codigo" => $this->request->getPost("codigo")));
+        if ($details) {
+            // $details->rate = $details->rate ? to_decimal_format($details->rate) : "";
+            echo json_encode(array("success" => true, "item_info" => $details));
+        } else {
+            echo json_encode(array("success" => false));
+        }
+    }
+
+
     //view html is accessable to client only.
     function preview($invoice_id = 0, $show_close_preview = false) {
         if ($invoice_id) {
